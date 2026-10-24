@@ -4020,7 +4020,7 @@ for _, v in pairs(partTable) do
 
     for _, _Part in pairs(part:GetChildren()) do
         if _Part:IsA('BasePart') and _Part.Transparency == 0 then
-            _Part.Transparency = 0.3
+            _Part.Transparency = 0.0
         end
     end
 end
